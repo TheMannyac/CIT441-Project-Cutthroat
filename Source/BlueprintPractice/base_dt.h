@@ -25,6 +25,6 @@ public:
 		FText deathMessage;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		AController* instagator;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditInstanceOnly, BlueprintReadWrite)
 		AActor* causer;
 };
