@@ -1,6 +1,6 @@
 
 #Ignore all imported assets
-content/**/ImportedAssets/**
+Content/**/ImportedAssets/**
 
 # Visual Studio 2015 user specific files
 .vs/
